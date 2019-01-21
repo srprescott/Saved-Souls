@@ -170,6 +170,10 @@ ICONS
   display: block;
 }
 
+.dropdown:active .dropdown-content {
+  display: block;
+}
+
 /* END NAVBAR */
 
 
