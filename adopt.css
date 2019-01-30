@@ -125,7 +125,7 @@ body{
 
 p{
     margin: 0;
-    color:#39436A;
+    
 }
 
 .container-fluid{
@@ -142,7 +142,8 @@ p{
 
 
 
-.two{
+.one, .two{
+    margin: 0 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -164,7 +165,7 @@ h1{
 }
 
 .adopt{
-    margin: 2% 10%;
+    margin-top: 2%;
     padding: 3%;
     background:white;
     border-radius: 10px;
@@ -196,23 +197,99 @@ h1{
 
 
 
-.right{
+.adopt-p{
+    font-size: 1.6rem;
+    color:white;
+    
+}
+
+.adopt-list{
+    font-size: 1.6rem;
+    color:white;
     
 }
 
 .header{
     font-size: 3rem;
     font-weight: 900;
+    color:#39436A;
 }
 
 .head-p{
     font-size: 2rem;
     font-weight: 900;
+    color:#39436A;
 }
 
 .body-p{
     font-size: 1.4rem;
+    color:#39436A;
 }
+
+
+
+
+.button{
+    font-size: 2rem;
+    height: 100px;
+    width: 300px;
+    margin: 25px;
+    background-color:#39436A;
+    border-radius: 10px;
+    border: 2px solid #E1E3F7;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button a{
+    color:white;
+    text-decoration: none;
+}
+
+
+
+
+.button:hover{
+    -webkit-animation: .5s shrink forwards;
+    animation: .5s shrink forwards;
+}
+
+@-webkit-keyframes shrink {
+    0% {
+        background-color: #39436A;
+    }
+    100%{
+        background-color: #0E163F;
+        border:2px solid #39436A;
+    }
+}
+
+@keyframes shrink {
+    0% {
+        background-color: #39436A;
+    }
+    100%{
+        background-color: #0E163F;
+        border:2px solid #39436A;
+    }
+    
+    
+}
+
+
+
+
+
+
 
 
 
@@ -318,7 +395,23 @@ h1{
 
 
 
-
+.divider{
+    height: 100px;
+    width: 100%;
+    background: #2DB349;
+    color:white;
+    font-size: 4rem;
+    background-image: url(images/45-degree-fabric-light.png);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
 
 
 
