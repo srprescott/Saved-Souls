@@ -34,7 +34,7 @@
     
     <div class="container-fluid">  
         <section class="one" id="about">
-            
+            <p class="soon">More information coming, please check back again soon!</p>
             
         </section>
         
@@ -66,19 +66,19 @@
        
 
        
-           
 <script>
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-            document.querySelector('.this-page').style.display = "none";
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+                document.querySelector('.this-page').style.display = "none";
+            }
+            else {
+                x.className = "topnav";
+                document.querySelector('.this-page').style.display = "block";
+            }
         }
-        else {
-            x.className = "topnav";
-        }
-    }
-</script>
+    </script>
       
       
       

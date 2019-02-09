@@ -115,12 +115,43 @@ ICONS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 *{
     font-family: 'Catamaran', sans-serif;
 }
 
 body{
     margin: 0;
+    
+    
+}
+
+section{
+    padding: 0 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
 }
 
 
@@ -128,23 +159,24 @@ body{
 
 
 
+.one{
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.soon{
+    color:#39436A;
+    font-size: 2rem;
+}
 
 
 
@@ -171,7 +203,7 @@ body{
 
 /* MMMMMMMM Footer MMMMMMMM */
 .footer{
-    background-color:#05396B;
+    background-color:#0E163F;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -209,81 +241,6 @@ body{
 
 
 
-@media screen and (min-width: 320px) and (max-width:580px) {
-    #page {}
-}
-
-
-@media screen and (max-width:1140px) {
-    .container-fluid {
-        width: 100%;
-    }
-    .row, body, .main {
-        max-width: 100%;
-        padding:0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-    
-}
-
-
-@media screen and (max-width:959px) {
-    .container-fluid {
-        width: 100%;
-    }
-    .row, body, .main {
-        max-width: 100%;
-        padding:0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-    
-}
-
-
-@media screen and (max-width:640px) {
-   .container-fluid {
-        width: 100%;
-    }
-    .row, body, .main {
-        max-width: 100%;
-        padding:0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-    
-}
-
-
-@media screen and (max-width:360px) {
-    .container-fluid {
-        width: 100%;
-    }
-    .row, body, .main {
-        max-width: 100%;
-        padding:0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-    
-}
-
-
-@media screen and (max-width:320px) {
-    .container-fluid {
-        width: 100%;
-    }
-    .row, body, .main {
-        max-width: 100%;
-        padding:0;
-        margin: 0;
-        overflow-x: hidden;
-    }
-    
-}
-
-
 
 
 /* NAVBAR */
@@ -308,8 +265,9 @@ body{
         display: flex;
         -ms-flex-pack: distribute;
         justify-content: space-around;
-        background-color: #3547E0;
+        background-color: #0E163F;
         margin-top: 20px;
+        
     }
     .topnav a.icon {
         float: right;
@@ -324,6 +282,13 @@ body{
 @media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
     }
     .topnav.responsive .icon {
         position: absolute;
@@ -342,3 +307,291 @@ body{
         font-size: 4em;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width:580px) {
+    #page {}
+}
+
+
+@media screen and (max-width:1140px) {
+    .container-fluid {
+        width: 100%;
+        text-align: center;
+    }
+    .row, body, .main {
+        width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .topnav{
+        margin-top: none;
+    }
+    .donate-button{
+        width: 100%;
+    }
+    .divider{
+        font-size: 2rem;
+    }
+    .one, .two, .adoptables {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .two{
+        padding:10px;
+        text-align: center;
+    }
+    .about, .help{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .help{
+        padding-top:150px;
+    }
+    section{
+        padding: 0 10%;
+    }
+    .adoptables{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:959px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        max-width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .topnav{
+        margin-top: none;
+    }
+    .divider{
+        font-size: 2rem;
+    }
+    .one, .two, .adoptables{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .two{
+        padding:10px;
+        text-align: center;
+    }
+    .about, .help{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .help{
+        padding-top:150px;
+    }
+    
+}
+
+
+@media screen and (max-width:640px) {
+   .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        max-width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .topnav{
+        margin-top: none;
+    }
+    .divider{
+        font-size: 2rem;
+    }
+    .one, .two, .adoptables{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .two{
+        padding:10px;
+        text-align: center;
+    }
+    .about, .help{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .help{
+        padding-top:150px;
+    }
+    
+}
+
+
+@media screen and (max-width:360px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        max-width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .topnav{
+        margin-top: none;
+    }
+    .divider{
+        font-size: 2rem;
+    }
+    .one, .two, .adoptables{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .two{
+        padding:10px;
+        text-align: center;
+    }
+    .about, .help{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .help{
+        padding-top:150px;
+    }
+    
+}
+
+
+@media screen and (max-width:320px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .row, body, .main {
+        max-width: 100%;
+        padding:0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .navbar{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .topnav{
+        margin-top: none;
+    }
+    .divider{
+        font-size: 2rem;
+    }
+    .one, .two, .adoptables {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .two{
+        padding:10px;
+        text-align: center;
+    }
+    .about, .help{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+    .help{
+        padding-top:150px;
+    }
+    
+}
+
+
+
+
+
+
