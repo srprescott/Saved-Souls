@@ -132,8 +132,6 @@ ICONS
 
 body{
     margin: 0;
-    
-    
 }
 
 section{
@@ -154,29 +152,18 @@ a{
     text-decoration: none;
 }
 
-
-
-
-
-
-.one{
-    height: 80vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    text-align: center;
+.container-fluid{
+    background: #2DB349;
+    background-image: url(images/45-degree-fabric-light.png);
 }
 
-.soon{
-    color:#39436A;
-    font-size: 2rem;
+h1{
+    font-size: 3.5rem;
+    color:white;
 }
+
+
+
 
 
 
@@ -358,44 +345,8 @@ a{
     .topnav{
         margin-top: none;
     }
-    .donate-button{
-        width: 100%;
-    }
-    .divider{
-        font-size: 2rem;
-    }
-    .one, .two, .adoptables {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
-    }
-    section{
-        padding: 0 10%;
-    }
-    .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
+    
+    
 }
 
 
@@ -422,27 +373,7 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
-    }
-    .one, .two, .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
-    }
+    
     
 }
 
@@ -470,27 +401,7 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
-    }
-    .one, .two, .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
-    }
+    
     
 }
 
@@ -518,27 +429,7 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
-    }
-    .one, .two, .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
-    }
+    
     
 }
 
@@ -566,27 +457,7 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
-    }
-    .one, .two, .adoptables {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
-    }
+    
     
 }
 
