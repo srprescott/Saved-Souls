@@ -248,9 +248,13 @@ section{
     flex-basis: 40%;
     -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.75);
+    
 }
 
-
+.image{
+    height:  700px;
+    width:  456px;
+}
 
 
 
@@ -280,7 +284,10 @@ section{
     flex-direction: row;
 }
 
-
+.button-donate:hover{
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
+}
 
 
 
@@ -542,7 +549,18 @@ section{
     .topnav{
         margin-top: none;
     }
-    
+    section{
+        padding:20% 10px;
+    }
+    .box, .donation-buttons{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .blurb-adopt, .image-adopt, .image-transport{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
     
 }
 
@@ -570,7 +588,18 @@ section{
     .topnav{
         margin-top: none;
     }
-    
+    section{
+        padding:20% 10px;
+    }
+    .box, .donation-buttons{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .blurb-adopt, .image-adopt{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
     
 }
 
@@ -598,7 +627,18 @@ section{
     .topnav{
         margin-top: none;
     }
-    
+    section{
+        padding:20% 10px;
+    }
+    .box, .donation-buttons{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .blurb-adopt, .image-adopt{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
     
 }
 
@@ -626,7 +666,18 @@ section{
     .topnav{
         margin-top: none;
     }
-    
+    section{
+        padding:20% 10px;
+    }
+    .box, .donation-buttons{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .blurb-adopt, .image-adopt{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
     
 }
 
@@ -654,7 +705,18 @@ section{
     .topnav{
         margin-top: none;
     }
-    
+    section{
+        padding:20% 10px;
+    }
+    .box, .donation-buttons{
+        -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    }
+    .blurb-adopt, .image-adopt{
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
     
 }
 
