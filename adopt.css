@@ -170,6 +170,8 @@ h1{
     background:white;
     border-radius: 10px;
     border: 20px solid #39436A;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
 .adopt-one{
@@ -248,6 +250,8 @@ h1{
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
 .button a{

@@ -136,6 +136,12 @@ body{
     
 }
 
+.container-fluid{
+    background: #2DB349;
+    background-image: url(images/45-degree-fabric-light.png);
+    padding-bottom: 100px;
+}
+
 section{
     padding: 0 20%;
     display: -webkit-box;
@@ -155,12 +161,126 @@ a{
 }
 
 
+h1{
+    margin: 0;
+    padding-top: 40px;
+    font-size: 3.5rem;
+    color:white;
+    text-align: center;
+}
+
+h2{
+    margin: 0;
+    padding-top: 40px;
+    font-size: 2.5rem;
+    color:white;
+    text-align: center;
+}
+
+.blurb{
+    font-size: 2rem;
+    color:white;
+    text-align: center;
+    margin: 0 20%;
+}
+
+
+.blurb a{
+    color:#2DB349;
+}
+
+.blurb a:hover{
+    color:#2DB349;
+    text-decoration: overline;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 .one{
-    height: 80vh;
+    margin: 50px 20%;
+    padding: 5%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0E163F), to(#39436A));
+    background-image: linear-gradient(#0E163F, #39436A);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form{
+    width: 200%;
+    padding: 20px;
+    margin: 20px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    color:white;
+    font-size: 1.5rem;
+    height: 50px;
+    width: 200px;
+    margin: 50px;
+    background-color:#2DB349;
+    border: none;
+    cursor: pointer;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -171,12 +291,46 @@ a{
     -ms-flex-align: center;
     align-items: center;
     text-align: center;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
-.soon{
-    color:#39436A;
-    font-size: 2rem;
+.button a{
+    color:white;
+    text-decoration: none;
 }
+
+
+
+
+.button:hover{
+    -webkit-animation: .5s shrink forwards;
+    animation: .5s shrink forwards;
+}
+
+@-webkit-keyframes shrink {
+    0% {
+        background-color: #2DB349;
+    }
+    100%{
+        background-color: #0E163F;
+        
+    }
+}
+
+@keyframes shrink {
+    0% {
+        background-color: #2DB349;
+    }
+    100%{
+        background-color: #0E163F;
+        
+    }
+    
+    
+}
+
+
 
 
 
@@ -358,44 +512,14 @@ a{
     .topnav{
         margin-top: none;
     }
-    .donate-button{
-        width: 100%;
+    section, .one, .blurb{
+        margin: 10px;
     }
-    .divider{
-        font-size: 2rem;
+    .form{
+        width: 90%;
+        margin: 10px;
     }
-    .one, .two, .adoptables {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
-    }
-    section{
-        padding: 0 10%;
-    }
-    .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
+    
 }
 
 
@@ -422,26 +546,12 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
+    section, .one{
+        margin: 10px;
     }
-    .one, .two, .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
+    .form{
+        width: 90%;
+        margin: 10px;
     }
     
 }
@@ -470,26 +580,12 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
+    section, .one{
+        margin: 10px;
     }
-    .one, .two, .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
+    .form{
+        width: 90%;
+        margin: 10px;
     }
     
 }
@@ -518,26 +614,12 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
+    section, .one{
+        margin: 10px;
     }
-    .one, .two, .adoptables{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
+    .form{
+        width: 90%;
+        margin: 10px;
     }
     
 }
@@ -566,26 +648,12 @@ a{
     .topnav{
         margin-top: none;
     }
-    .divider{
-        font-size: 2rem;
+    section, .one{
+        margin: 10px;
     }
-    .one, .two, .adoptables {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-flow: wrap;
-        flex-flow: wrap;
-    }
-    .two{
-        padding:10px;
-        text-align: center;
-    }
-    .about, .help{
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-    }
-    .help{
-        padding-top:150px;
+    .form{
+        width: 90%;
+        margin: 10px;
     }
     
 }
